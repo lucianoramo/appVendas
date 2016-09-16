@@ -11,7 +11,7 @@ $(document).ready(function() {
         var formattedPreco = HTMLpreco.replace('%data%', inventario.produtos[i].preco);
         var formattedQuantidade = HTMLquantidade;
         var formattedIcone = HTMLicone;
-        $('#main').prepend('<div class="row rowItem" id="item"><div class="col-xs-2" id="itemFoto"></div><div class="col-xs-4" id="itemDescricao"></div><div class="col-xs-6" id="precos"><div class="col-xs-6 text-right preco" id="preco"></div><div class="col-xs-4 quantidade" id="quantidade"></div><div class="col-xs-2" id="icone"></div></div></div>');
+        $('#main').prepend('<div class="row rowItem" id="item"><div class="col-xs-3" id="itemFoto"></div><div class="col-xs-4" id="itemDescricao"></div><div class="col-xs-4" id="precos"><div class="col-xs-6 text-right preco" id="preco"></div><div class="col-xs-4 quantidade" id="quantidade"></div><div class="col-xs-2" id="icone"></div></div></div>');
 
         $('#itemFoto').append(formattedItemFoto);
         $('#itemDescricao').append(formattedItemNome);

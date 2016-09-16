@@ -2,7 +2,7 @@
 /*====================================
 =            helpers HTML            =
 ====================================*/
-var HTMLitemFoto = '<img class="img-responsive" src="%data%">';
+var HTMLitemFoto = '<img class="img-fluid" src="%data%">';
 var HTMLitemNome = '<h4 class="product-name"><strong>%data%</strong></h4>';
 var HTMLitemDescricao = '<h4 class="descricao"><small>%data%</small></h4>';
 var HTMLpreco = '<h6 class="precoUnitario">%data%</h6>';
